@@ -1,0 +1,45 @@
+ body {
+                 background: black;
+                 color: #80c0c0 }
+[Go To Analysis]       a:link { color: #ff8080 }
+[Go To Analysis]       a:visited { color: #ff0000 }
+[Go To Analysis]       a:active { color: #a05050 }
+[Go To Analysis]       a.case1:link { background: green }
+[Go To Analysis]       p:first-line { margin-left: 25px }
+[Go To Analysis]       div.foo:first-line {
+                 font-weight: bold;
+                 margin-left: 30px }
+[Go To Analysis]       div:first-letter {
+                 font-size: x-large;
+                 color: #ffffff }
+[Go To Analysis]       ul ul li {
+                 font-size: x-large;
+                 font-decoration: italic }
+[Go To Analysis]       h2 em { font-weight: 900 }
+[Go To Analysis]       h2.ex1 {
+                 color: green;       /* This type of heading MUST be Green and Large! */
+                 line-height: 50px;
+                 font-size: 40px }
+[Go To Analysis]       .funkyclass {
+                 font: 36pt/40pt courier;
+                 font-variant: small-caps;
+                 border: thick dashed blue }
+[Go To Analysis]       #tagid1 {
+                 padding: 20px;
+                 border: 20px groove #ffffff }
+[Go To Analysis]       .class1, #tagid2 { font-family: 'comic sans ms', fantasy; color: rgb(100%,100%,0%) }
+[Go To Analysis]       h1, h2, div.class5, blockquote { background: #000080 }
+[Go To Analysis]       p.special {
+                 font: 12pt/14pt sans-serif;
+                 margin: 5px 0px 2px 25px;
+                 border: medium dashed #ff0000;
+                 background: white url(http://www.foo.com/image.gif) repeat-x fixed top right }
+[Go To Analysis]       blockquote {
+                 margin-left: 2cm;
+                 color: #00ff00 }
+[Go To Analysis]       .part1 {
+                 font-size: xx-large;
+                 color: #808000 }
+[Go To Analysis]       h6 {
+                 font-size: xx-small ! important;
+                 color: red ! important } 
