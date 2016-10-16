@@ -1,0 +1,36 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+  <script src="https://code.jquery.com/jquery-git.js"></script>  
+  <meta charset="utf-8">  
+  <meta name="viewport" content="width=device-width">  
+  <title>Adding class to paragraph</title>  
+    <style>  
+      p {  
+        margin: 10px;  
+        font-size: 22px;  
+      }  
+      .myclass {  
+        color: #FA5858;  
+      }  
+      .highlight {  
+        background: #CEF6F5;  
+      }  
+    </style>  
+    <!-- script to add hightlight class to paragraph. addClass function adds class to . -->
+    <script>
+      $(document).ready(function(){
+        $("#button1").click(function(){
+          $("p").addClass("highlight");
+          // This adds highlight class to paragraphs p.
+          // Multiple classes are seperated with space.
+        });
+      });
+    </script>
+</head>  
+<body>  
+    <p>jQuery Exercises</p>  
+    <p>and Solution.</p>  
+    <button id="button1">Click to see the effect</button>  
+</body>  
+</html> 

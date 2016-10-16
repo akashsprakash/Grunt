@@ -13,6 +13,12 @@
 module.exports = function(grunt) {
  
     grunt.initConfig({
+        uglify: {
+            js: {
+                src: 'assets/js/main.js',
+                dest: 'assets/js/main.min.js'
+                }
+            },
         cssmin: {
             css: {
                 src: 'assets/css/main.css',
